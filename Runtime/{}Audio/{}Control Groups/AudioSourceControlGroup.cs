@@ -36,7 +36,7 @@ public class AudioSourceControlGroup : ScriptableObject
 	//TODO: make a tooltip button to set it when it's missing.
 	private void Awake()
 	{
-		string[] assetsGuids = AssetDatabase.FindAssets("t:MasterAudioSourceControlGroup", new[] { "Assets/Audio" });
+		string[] assetsGuids = AssetDatabase.FindAssets("t:MasterAudioSourceControlGroup", new[] { "Assets/Audio", "Assets/{#}Packages/unity-pixli-audio-system/#Presets" });
 
 		if (assetsGuids.Length > 0)
 		{
