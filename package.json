@@ -6,8 +6,6 @@
 	"unity": "2020.1",
 	"unityRelease": "2f1",
 	"dependencies": {
-		"com.pixel-lifetime.unity-pixli-miscellaneous": "https://github.com/PixelLifetime/unity-pixli-miscellaneous.git",
-		"com.pixel-lifetime.unity-pixli-object-pooling-system": "https://github.com/PixelLifetime/unity-pixli-object-pooling-system.git"
 	},
 	"keywords": [
 		"system",
